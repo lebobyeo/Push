@@ -5,8 +5,8 @@ using TMPro;
 
 public class ItemTitle : MonoBehaviour
 {
-    [SerializeField] private TMP_Text titleText;
-
+    [SerializeReference] private TMP_Text titleText;
+    
     public void SetText(string str)
     {
         titleText.text = str;
